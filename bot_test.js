@@ -1,5 +1,6 @@
 const { Wechaty, ScanStatus, log, FileBox, } = require('wechaty')
 const schedule       = require('node-schedule');
+const finis = require('./finis')
 const bot = new Wechaty({
     name: 'ding-dong-bot',
     /**
