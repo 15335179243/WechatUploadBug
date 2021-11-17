@@ -61,6 +61,7 @@ const monitorTask = { "name": '[聊天监控]', "crontab": "0 */1 * * * *", "con
 let index=0
 function onLogin(user) {
     log.info('StarterBot', '%s login', user)
+    //由于机器网络问题美女视频
     // list.push("https://onedrive.xiazai.de/1/BMjAxOTA3MDMwNzE4MjFfMjY1NjIxNzE5XzE0NzIyMTU1MTk4XzFfMw%3D%3D_b_B817917201f689e9744dccef4e3af80da.mp4")
     // list.push("https://onedrive.xiazai.de/1/BMjAxOTA3MDQxMjU1NTJfMTIwNTAzNTA3MV8xNDc2NzU4NTk4Ml8xXzM%3D_b_B2ff543d3a7cfba0357aad7bf5dfd04a4.mp4")
     // list.push("https://onedrive.xiazai.de/1/BMjAxOTA3MDQxNzM2MDlfNDA4OTcyOTYxXzE0Nzc3MDY0MDM1XzFfMw%3D%3D_b_B51c78b7d5ea9594b541e52ba3f0e1682.mp4")
