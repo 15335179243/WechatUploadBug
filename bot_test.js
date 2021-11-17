@@ -122,7 +122,7 @@ function onLogin(user) {
                 index++
             }
         } else {
-            log.info("没有找到机器人测试群")
+            log.info("没有找到测试群")
         }
     })
 }
